@@ -1,5 +1,4 @@
 {
-
   plugins.undotree = {
     enable = true;
     settings = {
@@ -8,15 +7,14 @@
   };
 
   keymaps = [
-  {
-    mode = "n";
-    key = "<leader>u";
-    action = ":UndotreeToggle<CR>";
-    options = {
-      silent = true;
-      desc = "open undotree";
-    };
-  }
+    {
+      mode = "n";
+      key = "<leader>u";
+      action = ":UndotreeToggle<CR>";
+      options = {
+        silent = true;
+        desc = "open undotree";
+      };
+    }
   ];
-
 }
