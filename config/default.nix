@@ -1,6 +1,7 @@
 {
   imports = [
     ./code/aerial.nix
+    ./code/lazygit.nix
     ./code/nvim-surround.nix
     ./squash/bugs.nix
     ./squash/debuggers.nix
