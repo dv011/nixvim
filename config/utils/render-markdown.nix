@@ -4,7 +4,7 @@
     settings = {
       code = {
         # Turn on / off any sign column related rendering
-        sign = true;
+        sign = false;
         # Width of the code block background:
         #  block: width of the code block
         #  full:  full width of the window
