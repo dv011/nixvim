@@ -1,10 +1,12 @@
 {
   files = {
+    # TODO: fix this
     "ftplugin/help.lua" = {
       autoCmd = [
         {
           event = "BufWinEnter";
-          command = ":wincmd L<CR>";
+          pattern = "*.txt";
+          command = "wincmd L<CR>";
         }
       ];
     };

@@ -14,11 +14,12 @@
     ./looks/colorscheme.nix
     ./looks/helpview.nix
     ./looks/web-devicons.nix
+    ./utils/render-markdown.nix
     ./autocommands.nix
     ./ftplugins.nix
     ./keymaps.nix
-    
-    # TODO: getting 
+
+    # TODO: getting
     #Error detected while processing CursorHold Autocommands for "<buffer=7>":
     #method textDocument/documentSymbol is not supported by any of the servers registered
     #for the current buffer
