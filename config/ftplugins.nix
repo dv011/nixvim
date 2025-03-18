@@ -4,7 +4,7 @@
       autoCmd = [
         {
           event = "BufWinEnter";
-          command = "wincmd L<CR>";
+          command = ":wincmd L<CR>";
         }
       ];
     };
