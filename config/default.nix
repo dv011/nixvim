@@ -8,13 +8,13 @@
     ./feels/autoclose.nix
     # ./feels/completion.nix
     ./feels/flash.nix
+    ./feels/render-markdown.nix
     ./feels/toggleterm.nix
     ./feels/vim-suda.nix
     ./looks/ccc-pick.nix
     ./looks/colorscheme.nix
     ./looks/helpview.nix
     ./looks/web-devicons.nix
-    ./utils/render-markdown.nix
     ./autocommands.nix
     ./ftplugins.nix
     ./keymaps.nix
