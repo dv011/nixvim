@@ -47,8 +47,8 @@
       keymaps = {
 
         diagnostic = {
-          "<leader>j" = "goto_next";
-          "<leader>k" = "goto_prev";
+          "<leader>J" = "goto_next";
+          "<leader>K" = "goto_prev";
         };
 
         lspBuf = {

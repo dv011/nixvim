@@ -4,7 +4,7 @@
     dap-ui.settings.floating.mappings = {close = ["<ESC>" "q"];};
     dap-ui.enable = true;
     dap-virtual-text.enable = true;
-    cmp-dap.enable = true;
+    # cmp-dap.enable = true;
     dap = {
       enable = true;
       signs = {

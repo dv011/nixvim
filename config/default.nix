@@ -1,23 +1,32 @@
 {
   imports = [
-    ./sqaush/bugs.nix
+    ./code/aerial.nix
+    ./squash/bugs.nix
     ./squash/debuggers.nix
     ./feels/autoclose.nix
-    ./feels/completion.nix
+    # ./feels/completion.nix
+    ./feels/flash.nix
+    ./feels/toggleterm.nix
     ./feels/vim-suda.nix
+    ./looks/ccc-pick.nix
     ./looks/colorscheme.nix
     ./looks/web-devicons.nix
     ./autocommands.nix
     ./ftplugins.nix
     ./keymaps.nix
-    ./lsp.nix
-    ./luasnip.nix
-    ./none-ls.nix
+    
+    # TODO: getting 
+    #Error detected while processing CursorHold Autocommands for "<buffer=7>":
+    #method textDocument/documentSymbol is not supported by any of the servers registered
+    #for the current buffer
+    # ./lsp.nix
+
+    # ./luasnip.nix
+    # ./none-ls.nix
     ./oil.nix
     ./options.nix
     ./treesitter.nix
     ./undotree.nix
-    ./user-interface/web-devicons.nix
   ];
   viAlias = true;
   vimAlias = true;
