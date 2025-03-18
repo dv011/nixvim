@@ -12,6 +12,7 @@
     ./feels/vim-suda.nix
     ./looks/ccc-pick.nix
     ./looks/colorscheme.nix
+    ./looks/helpview.nix
     ./looks/web-devicons.nix
     ./autocommands.nix
     ./ftplugins.nix
