@@ -1,5 +1,6 @@
 # TODO: figure out how to access jump history and test jumplist
-# TODO: fix keybind not working for this
+# TODO: try disabling treesitter to see if it improves performance
+# also try xset r rate 200 35 https://www.reddit.com/r/neovim/comments/168xl5x/how_do_i_hold_down_a_key_without_the_initial/
 {
   plugins.flash = {
     enable = true;
