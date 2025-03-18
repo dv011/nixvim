@@ -4,7 +4,7 @@
     settings = {
       code = {
         # Turn on / off any sign column related rendering
-        sign = false;
+        sign = true;
         # Width of the code block background:
         #  block: width of the code block
         #  full:  full width of the window
@@ -19,6 +19,16 @@
         #  language: adds language icon to sign column if enabled and icon + name above code blocks
         #  full:     normal + language
         style = "full";
+      };
+      heading = {
+        sign = false;
+        width = "block";
+      };
+      html = {
+        enabled = false;
+        comment = {
+          conceal = false;
+        };
       };
     };
   };
