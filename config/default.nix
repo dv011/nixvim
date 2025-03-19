@@ -6,8 +6,9 @@
     ./squash/bugs.nix
     ./squash/debuggers.nix
     ./feels/autoclose.nix
-    # ./feels/completion.nix
+    ./feels/completion.nix
     ./feels/flash.nix
+    ./feels/harpoon.nix
     ./feels/render-markdown.nix
     ./feels/toggleterm.nix
     ./feels/vim-suda.nix
@@ -23,7 +24,7 @@
     #Error detected while processing CursorHold Autocommands for "<buffer=7>":
     #method textDocument/documentSymbol is not supported by any of the servers registered
     #for the current buffer
-    # ./lsp.nix
+    ./lsp.nix
 
     # ./luasnip.nix
     # ./none-ls.nix
