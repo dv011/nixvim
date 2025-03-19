@@ -1,6 +1,8 @@
 {
   plugins.render-markdown = {
+
     enable = true;
+
     settings = {
       code = {
         # Turn on / off any sign column related rendering
@@ -31,5 +33,6 @@
         };
       };
     };
+
   };
 }

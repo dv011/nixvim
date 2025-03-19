@@ -1,7 +1,7 @@
 {
   files = {
     # TODO: fix this
-    "ftplugin/help.lua" = {
+    "after/ftplugin/help.lua" = {
       autoCmd = [
         {
           event = "BufWinEnter";
@@ -10,7 +10,7 @@
         }
       ];
     };
-    "ftplugin/markdown.lua" = {
+    "after/ftplugin/markdown.lua" = {
       localOpts = {
         spell = true;
       };

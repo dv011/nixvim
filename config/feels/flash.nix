@@ -4,6 +4,7 @@
 {
   plugins.flash = {
     enable = true;
+
     settings = {
       jump = {
         autojump = true;
@@ -13,6 +14,7 @@
       };
     };
   };
+
   keymaps = [
     {
       key = "<leader>jj";

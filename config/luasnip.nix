@@ -7,8 +7,8 @@
     };
     fromLua = [
       {
-	paths = ./snippets/luasnip.lua;
-	include = [ "lua" ];
+        paths = ./snippets/luasnip.lua;
+        include = ["lua"];
       }
     ];
   };

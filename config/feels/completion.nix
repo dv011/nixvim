@@ -6,7 +6,9 @@
   ];
 
   plugins = {
+
     lspkind = {
+
       enable = true;
 
       cmp = {
@@ -20,7 +22,9 @@
 	  neorg = "[neorg]";
 	};
       };
+
     };
+
     cmp = {
       enable = true;
 
@@ -51,5 +55,7 @@
 	];
       };
     };
+
   };
+
 }

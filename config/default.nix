@@ -10,6 +10,7 @@
     ./feels/flash.nix
     ./feels/harpoon.nix
     ./feels/render-markdown.nix
+    ./feels/snacks.nix
     ./feels/toggleterm.nix
     ./feels/vim-suda.nix
     ./looks/ccc-pick.nix
@@ -27,6 +28,7 @@
     ./lsp.nix
 
     # ./luasnip.nix
+    ./neorg.nix
     # ./none-ls.nix
     ./oil.nix
     ./options.nix

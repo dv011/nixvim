@@ -1,5 +1,6 @@
 {
   plugins.vim-suda.enable = true;
+
   keymaps = [
     {
       key = "<leader>W";
