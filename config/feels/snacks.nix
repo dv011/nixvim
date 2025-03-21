@@ -54,7 +54,7 @@
       };
     }
     {
-      key = "<leader>/";
+      key = "<leader>sg";
       action = {
 	  __raw = ''
 	    function()
@@ -82,7 +82,7 @@
       };
     }
     {
-      key = "<leader>N";
+      key = "<leader><leader>N";
       action = {
 	  __raw = ''
 	    function()
@@ -193,8 +193,10 @@
         desc = "picker cuickfix list";
       };
     }
+
+# TODO: this history window is hard to read, fix this
     {
-      key = "<leader>n";
+      key = "<leader><leader>n";
       action = {
 	  __raw = ''
 	    function()
