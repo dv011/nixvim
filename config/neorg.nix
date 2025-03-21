@@ -7,14 +7,40 @@
         "core.defaults" = {
           __empty = null;
         };
-        "core.autocommands" = {
-          __empty = null;
-        };
-        "core.integrations.treesitter" = {
-          __empty = null;
-        };
-        "core.highlights" = {
-          __empty = null;
+        "core.concealer" = {
+          config = {
+            icon_preset = "basic";
+            # TODO: get my fancy headings to work
+            # icons = {
+            #   heading = __raw = ''
+            # level_1 = {
+            # icon = "󰉫",
+            # },
+            # level_2 = {
+            # icon = "󰉬",
+            # },
+            # level_3 = {
+            # icon = "󰉭",
+            # },
+            # level_4 = {
+            # icon = "󰉮",
+            # },
+            # level_5 = {
+            # icon = "󰉯",
+            # },
+            # level_6 = {
+            # icon = "󰉰",
+            # },
+            # '';
+            # heading = {
+            #   level_1 = {icon = "󰉫";};
+            #   level_2 = {icon = "󰉬";};
+            #   level_3 = {icon = "󰉭";};
+            #   level_4 = {icon = "󰉮";};
+            #   level_5 = {icon = "󰉯";};
+            #   level_6 = {icon = "󰉰";};
+            # };
+          };
         };
         "core.dirman" = {
           config = {
@@ -32,7 +58,7 @@
 
   keymaps = [
     {
-      key = "<leader>n";
+      key = "<leader>ni";
       action = ":Neorg index<CR>";
       options = {
         silent = true;
@@ -40,13 +66,12 @@
       };
     }
     {
-      key = "<leader>r";
+      key = "<leader>nr";
       action = ":Neorg return<CR>";
       options = {
         silent = true;
         desc = "return from neorg";
       };
     }
-
   ];
 }
