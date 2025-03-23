@@ -6,7 +6,7 @@
         {
           event = "BufWinEnter";
           pattern = "*.txt";
-          command = "wincmd L<CR>";
+          command = "wincmd L";
         }
       ];
     };

@@ -68,5 +68,9 @@
     # %-m is for the left adjusted [+]
     # %-=%F is for the left adjusted path/to/file
     winbar = "%-m %-=%F";
+
+    # options for neorg
+    conceallevel = 2;
+    foldlevel = 99;
   };
 }
