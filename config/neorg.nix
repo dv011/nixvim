@@ -12,36 +12,27 @@
             icon_preset = "basic";
             markup_preset = "brave";
             # TODO: get my fancy headings to work
-            # icons = {
-            #   heading.__raw = ''
-            #     level_1 = {
-            #     icon = "󰉫",
-            #     },
-            #     level_2 = {
-            #     icon = "󰉬",
-            #     },
-            #     level_3 = {
-            #     icon = "󰉭",
-            #     },
-            #     level_4 = {
-            #     icon = "󰉮",
-            #     },
-            #     level_5 = {
-            #     icon = "󰉯",
-            #     },
-            #     level_6 = {
-            #     icon = "󰉰",
-            #     },
-            #   '';
-            # heading = {
-            #   level_1 = {icon = "󰉫";};
-            #   level_2 = {icon = "󰉬";};
-            #   level_3 = {icon = "󰉭";};
-            #   level_4 = {icon = "󰉮";};
-            #   level_5 = {icon = "󰉯";};
-            #   level_6 = {icon = "󰉰";};
-            # };
-            # };
+            icons = {
+              heading = {
+                icons = [
+                  "󰉫"
+                  "󰉬"
+                  "󰉭"
+                  "󰉮"
+                  "󰉯"
+                  "󰉰"
+                ];
+                # heading = {
+                #   level_1 = {icon = "󰉫";};
+                #   level_2 = {icon = "󰉬";};
+                #   level_3 = {icon = "󰉭";};
+                #   level_4 = {icon = "󰉮";};
+                #   level_5 = {icon = "󰉯";};
+                #   level_6 = {icon = "󰉰";};
+                # };
+                # };
+              };
+            };
           };
         };
         "core.dirman" = {
