@@ -18,6 +18,7 @@
     ./looks/helpview.nix
     ./looks/web-devicons.nix
     ./autocommands.nix
+    ./blink-cmp.nix
     ./ftplugins.nix
     ./keymaps.nix
 
